@@ -151,7 +151,7 @@ const Navbar = ({PRODUCTS}) => {
          
         ))}</div>
      
-      <div className="flex justify-end items-center lg:mr-24 sm:mr-12 space-x-4">
+      <div className="flex justify-end items-center lg:mr-24 sm:mr-2 space-x-4">
         <button className="text-white bg-blue-700 border-none rounded-md mr-2">
           <Link to="/cart" ><ShoppingCart size={38} className="" /></Link>
           <span className="absolute top-0 ml-5 mt-5 bg-red-500 rounded-full w-5 h-5 flex justify-center items-center text-white">
