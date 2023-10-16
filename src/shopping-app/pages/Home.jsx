@@ -20,9 +20,9 @@ const Home = () => {
       <div className='flex flex-col text-center mt-12'>
          <h1 className="lg:mt-4 text-blue-700 text-center font-bold lg:text-2xl sm:text-xl sm:mt-4 underline" >LATEST PRODUCTS</h1>
       </div>
-    <motion.div className='w-full overflow-x-auto  whitespace-nowrap'
-    animate={{ x: [-100, 0, 100, 0]}}
-    transition = {{ repeat :Infinity, duration:10, ease:"linear"}}>
+    <div className='w-full overflow-x-auto  whitespace-nowrap'>
+    
+  
      <div className='flex space-x-12'><br/>
         
         <div className=' '>
@@ -110,7 +110,7 @@ const Home = () => {
         </p>
         </div>
         </div> <br/>
-    </motion.div>
+    </div>
   
     </>
   )
