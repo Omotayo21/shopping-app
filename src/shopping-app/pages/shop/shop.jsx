@@ -8,7 +8,7 @@ export const Shop = () => {
    return(
 <>
  <Hero />
-    <div className="grid sm:grid-cols-2 lg:mt-2 sm:gap-2 lg:grid-cols-4 lg:gap-4 lg:ml-12 sm:ml-4 ">
+    <div className="grid sm:grid-cols-2 lg:mt-2 sm:gap-2 lg:grid-cols-4 lg:gap-4 lg:ml-12 ">
        {PRODUCTS.map((product)=> (
        <Product data={product } />
         ))}
