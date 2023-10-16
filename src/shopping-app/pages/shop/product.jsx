@@ -20,7 +20,7 @@ export const Product = (props) => {
     <div >
     
   <div className="grid justify-center">
-  <div className="group border-gray-100/30 flex lg:w-64 max-w-xs flex-col self-center overflow-hidden rounded-lg border bg-gray-100 shadow hover:shadow-2xl hover:shadow-black ">
+  <div className="group border-gray-100/30 flex lg:w-64 sm:w-48 max-w-xs flex-col self-center overflow-hidden rounded-lg border bg-gray-100 shadow hover:shadow-2xl hover:shadow-black ">
   
    <div className="relative mx-3 mt-3 flex overflow-hidden rounded-xl"></div>
    <Link to={`/person/${id}`}><img className="h-48 object-center sm:w-32  sm:h-24 lg:w-64 lg:h-48" src={productImage} /></Link>
