@@ -81,18 +81,18 @@ const Navbar = ({PRODUCTS}) => {
   <div class="items-center mt-80 -mb-6 ml-4 absolute left-0 justify-between gap-5 w-full flex order-1 ">
     <ul class="flex flex-col p-4 md:p-0 font-medium -ml-4 -mt-9 bg-gray-50 md:flex-row md:space-x-16 md:mt-0  md:bg-white dark:bg-gray-800 md:dark:bg-gray-900  ">
          <li>
-        <Link to="/" href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 focus:text-blue-500" aria-current="page">Home</Link>
+        <Link to="/" href="#" className="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 focus:text-blue-500" aria-current="page">Home</Link>
       </li>
         <li>
-        <Link to="/shop" href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 focus:text-blue-500" aria-current="page">Shop</Link>
+        <Link to="/shop" href="#" className="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 focus:text-blue-500" aria-current="page">Shop</Link>
       </li>
      
       <li>
-        <Link to="/about" href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 focus:text-blue-500" aria-current="page">About</Link>
+        <Link to="/about" href="#" className="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 focus:text-blue-500" aria-current="page">About</Link>
       </li>
       
       <li>
-        <Link to="/contact" href="#" className="block py-2 pl-3 pr-4 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 focus:text-blue-500" aria-current="page">Contact</Link>
+        <Link to="/contact" href="#" className="block py-2 pl-3 pr-4 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 focus:text-blue-500" aria-current="page">Contact</Link>
       </li>
        
     </ul>
@@ -133,7 +133,7 @@ const Navbar = ({PRODUCTS}) => {
         />
         
           <button onClick={searching ? clear : handleSearch } className="text-white border-none rounded-md ml-2" >
-         { searching ? <X size={28} /> : <MagnifyingGlass size={28}/> }
+         { searching ? <X size={28} /> : <MagnifyingGlass size={24}/> }
       </button>
       
         </div>
@@ -149,7 +149,7 @@ const Navbar = ({PRODUCTS}) => {
      
       <div className="flex justify-end items-center lg:mr-24 sm:mr-2 space-x-4">
         <button className="text-white bg-blue-700 border-none rounded-md mr-2">
-          <Link to="/cart" ><ShoppingCart size={38} className="" /></Link>
+          <Link to="/cart" ><ShoppingCart size={30} className="" /></Link>
           <span className="absolute top-0 ml-5 mt-5 bg-red-500 rounded-full w-5 h-5 flex justify-center items-center text-white">
             { quantity }
           </span>
@@ -158,7 +158,7 @@ const Navbar = ({PRODUCTS}) => {
 
 
         <button className="text-white bg-dark-blue border-none rounded-md sm:-ml-4 " onClick={toggleDropdown}>
-          <User size={38} className="" />
+          <User size={30} className="" />
         </button>
         {isDropdownOpen && (
       <div className="origin-top-right absolute right-0 mt-64 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
