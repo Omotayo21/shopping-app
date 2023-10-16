@@ -46,7 +46,7 @@ export const Cart = () => {
             </div><br/>
   <button
     onClick={() => navigate("/shop")}
-    className="bg-blue-700 -ml-8 text-white border rounded-lg border-white h-12 w-48 font-bold hover:border-blue-900">
+    className="bg-blue-700 -ml-4 text-white border rounded-lg border-white h-12 lg:w-48 sm:w-36 font-bold hover:border-blue-900">
       Continue shopping
   </button>
  <button 
