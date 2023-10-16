@@ -50,7 +50,7 @@ export const Cart = () => {
       Continue shopping
   </button>
  <button 
- className="bg-green-700 text-white ml-8 border rounded-lg border-white h-12 w-48 font-bold hover:border-green-900">
+ className="bg-green-700 text-white ml-8 border rounded-lg border-white h-12 lg:w-48 sm:w-36 font-bold hover:border-green-900">
   <Link to="/checkout">Proceed to checkout</Link> 
   </button>
    
@@ -62,7 +62,7 @@ export const Cart = () => {
 
   <button
     onClick={() => navigate("/")}
-    className="bg-blue-700 -ml-8 text-white border rounded-lg border-white h-12 w-48 font-bold hover:border-blue-900">
+    className="bg-blue-700 -ml-8 text-white border rounded-lg border-white h-12 lg:w-48 sm:w-36 font-bold hover:border-blue-900">
       Go shopping
   </button>
   </div>)}
